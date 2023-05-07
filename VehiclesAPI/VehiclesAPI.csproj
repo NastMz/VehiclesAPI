@@ -19,6 +19,6 @@
     <Folder Include="Data\" />
   </ItemGroup>
 
-  <ProjectExtensions><VisualStudio><UserProperties data_4automobiles_1json__JsonSchema="https://json-schema.org/draft-04/schema" /></VisualStudio></ProjectExtensions>
+  <ProjectExtensions><VisualStudio><UserProperties data_4automobiles_1json__JsonSchema="https://json-stat.org/format/schema/2.0/" /></VisualStudio></ProjectExtensions>
 
 </Project>

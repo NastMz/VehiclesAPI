@@ -38,7 +38,7 @@
     }
 
     /// <summary>
-    /// Class <c>Vehicle</c> Models a vehicl without Id.
+    /// Class <c>Vehicle</c> Models a vehicle without Id.
     /// </summary>
     public class AutomobileRequest
     {

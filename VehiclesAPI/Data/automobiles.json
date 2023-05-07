@@ -1,1 +1,50 @@
-[{"Id":"1","Make":"Toyota","Model":"Camry","Year":"2020","BodyType":"sedan","EngineSize":"2.5"},{"Id":"2","Make":"Honda","Model":"Civic","Year":"2018","BodyType":"coupe","EngineSize":"1.5"},{"Id":"3","Make":"Ford","Model":"F-150","Year":"2021","BodyType":"pickup","EngineSize":"3.5"},{"Id":"4","Make":"Chevrolet","Model":"Equinox","Year":"2019","BodyType":"SUV","EngineSize":"2.0"},{"Id":"5","Make":"Tesla","Model":"Model S","Year":"2022","BodyType":"sedan","EngineSize":"electric"},{"Id":"6","Make":"Tesla","Model":"Model 3","Year":"2020","BodyType":"sedan","EngineSize":"electric"}]
+[
+  {
+    "Id": "1",
+    "Make": "Toyota",
+    "Model": "Camry",
+    "Year": "2020",
+    "BodyType": "sedan",
+    "EngineSize": "2.5"
+  },
+  {
+    "BodyType": "coupe",
+    "EngineSize": "1.5",
+    "Id": "2",
+    "Make": "Honda",
+    "Model": "Civic",
+    "Year": "2018"
+  },
+  {
+    "Id": "3",
+    "Make": "Ford",
+    "Model": "F-150",
+    "Year": "2021",
+    "BodyType": "pickup",
+    "EngineSize": "3.5"
+  },
+  {
+    "Id": "4",
+    "Make": "Chevrolet",
+    "Model": "Equinox",
+    "Year": "2019",
+    "BodyType": "SUV",
+    "EngineSize": "2.0"
+  },
+  {
+    "Id": "5",
+    "Make": "Tesla",
+    "Model": "Model S",
+    "Year": "2022",
+    "BodyType": "sedan",
+    "EngineSize": "electric"
+  },
+  {
+    "Id": "6",
+    "Make": "Tesla",
+    "Model": "Model 3",
+    "Year": "2020",
+    "BodyType": "sedan",
+    "EngineSize": "electric"
+  }
+]
