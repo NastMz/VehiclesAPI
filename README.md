@@ -14,7 +14,7 @@ VehiclesAPI is a simple **ASP.NET Core Web API** that provides endpoints for man
 
 ## Usage
 
-To use the **VehiclesAPI**, you can clone the repository and run the application locally using Visual Studio or the .NET CLI. Once the application is running, you can make **HTTP** requests to the available endpoints using a tool like Postman or cURL.
+To use the **VehiclesAPI**, you can clone the repository and run the application **locally** using Visual Studio or the .NET CLI. Once the application is running, you can make **HTTP** requests to the available endpoints using a tool like Postman or cURL.
 
 ## Getting Started
 
@@ -32,7 +32,7 @@ The following endpoints are available:
 | **Endpoin**t                  | **Method**   | **Description**                                       |
 |-------------------------------|--------------|-------------------------------------------------------|
 | `/automobile/list`            | **`GET`**    | Returns a list of all automobiles.                    |
-| `/automobile/{id}`        | **`GET`**    | Returns a single automobile with the specified id.    |
+| `/automobile/{id}`            | **`GET`**    | Returns a single automobile with the specified id.    |
 | `/automobile/save`            | **`POST`**   | Saves a new automobile to the list.                   |
 | `/automobile/update/{id}`     | **`PUT`**    | Updates an existing automobile with the specified id. |
 | `/automobile/delete/{id}`     | **`DELETE`** | Deletes an existing automobile with the specified id. |
