@@ -32,7 +32,7 @@ The following endpoints are available:
 | **Endpoin**t                  | **Method**   | **Description**                                       |
 |-------------------------------|--------------|-------------------------------------------------------|
 | `/automobile/list`            | **`GET`**    | Returns a list of all automobiles.                    |
-| `/automobile/get/{id}`        | **`GET`**    | Returns a single automobile with the specified id.    |
+| `/automobile/{id}`        | **`GET`**    | Returns a single automobile with the specified id.    |
 | `/automobile/save`            | **`POST`**   | Saves a new automobile to the list.                   |
 | `/automobile/update/{id}`     | **`PUT`**    | Updates an existing automobile with the specified id. |
 | `/automobile/delete/{id}`     | **`DELETE`** | Deletes an existing automobile with the specified id. |
