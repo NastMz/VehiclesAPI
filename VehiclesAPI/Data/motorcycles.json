@@ -1,0 +1,34 @@
+[
+  {
+    "Id": "1",
+    "Make": "Pulsar",
+    "Model": "NS",
+    "Year": "2022",
+    "CylinderCapacity": "200",
+    "Color": "Negro"
+  },
+  {
+    "Id": "2",
+    "Make": "Discover",
+    "Model": "ST-R",
+    "Year": "2017",
+    "CylinderCapacity": "125",
+    "Color": "Rojo"
+  },
+  {
+    "Id": "3",
+    "Make": "Yamaha",
+    "Model": "FZ25",
+    "Year": "2023",
+    "CylinderCapacity": "250",
+    "Color": "Gris"
+  },
+  {
+    "Id": "4",
+    "Make": "Honda",
+    "Model": "CBR",
+    "Year": "2024",
+    "CylinderCapacity": "190",
+    "Color": "Roja"
+  }
+]
