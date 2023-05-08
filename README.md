@@ -37,6 +37,17 @@ The following endpoints are available:
 | `/automobile/update/{id}`     | **`PUT`**    | Updates an existing automobile with the specified id. |
 | `/automobile/delete/{id}`     | **`DELETE`** | Deletes an existing automobile with the specified id. |
 
+
+### Motorcycle enpoints:
+
+| **Endpoin**t                  | **Method**   | **Description**                                       |
+|-------------------------------|--------------|-------------------------------------------------------|
+| `/motorcycle/list`            | **`GET`**    | Returns a list of all motorcycles.                    |
+| `/motorcycle/{id}`            | **`GET`**    | Returns a single motorcycle with the specified id.    |
+| `/motorcycle/save`            | **`POST`**   | Saves a new motorcycle to the list.                   |
+| `/motorcycle/update/{id}`     | **`PUT`**    | Updates an existing motorcycle with the specified id. |
+| `/motorcycle/delete/{id}`     | **`DELETE`** | Deletes an existing motorcycle with the specified id. |
+
 ## Data Model
 
 ### Automobile model:
@@ -51,3 +62,17 @@ The `Automobile` model represents an automobile, and has the following propertie
 | **`Year`**         | `string`   | Year of the automobile                   |
 | **`BodyType`**     | `string`   | Body type of the automobile              |
 | **`EngineSize`**   | `string`   | Engine size of the automobile            |
+
+### Motorcycle model:
+
+The `Motorcycle` model represents an motorcycle, and has the following properties:
+
+| **Property**       | **Type**   | **Description**                          |
+|--------------------|------------|------------------------------------------|
+| **`Id`**           | `string`   | Unique identifier for the motorcycle     |
+| **`Make`**         | `string`   | Make of the motorcycle                   |
+| **`Model`**        | `string`   | Model of the motorcycle                  |
+| **`Year`**         | `string`   | Year of the motorcycle                   |
+| **`CylinderCapacity`**     | `string`   | Cylinder capacity of the motorcycle              |
+| **`Color`**   | `string`   | Color of the motorcycle            |
+
