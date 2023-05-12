@@ -12,6 +12,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <_ContentIncludedByDefault Remove="data\boats.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
@@ -19,6 +23,6 @@
     <Folder Include="Data\" />
   </ItemGroup>
 
-  <ProjectExtensions><VisualStudio><UserProperties data_4automobiles_1json__JsonSchema="https://json-stat.org/format/schema/2.0/" /></VisualStudio></ProjectExtensions>
+  <ProjectExtensions><VisualStudio><UserProperties data_4automobiles_1json__JsonSchema="https://json-stat.org/format/schema/2.0/" data_4boats_1json__JsonSchema="https://json-stat.org/format/schema/2.0/" /></VisualStudio></ProjectExtensions>
 
 </Project>
