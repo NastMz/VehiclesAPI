@@ -5,9 +5,11 @@
   - [Endpoints](#endpoints)
     - [Automobile enpoints:](#automobile-enpoints)
     - [Motorcycle enpoints:](#motorcycle-enpoints)
+    - [Boat enpoints:](#boat-enpoints)
   - [Data Model](#data-model)
     - [Automobile model:](#automobile-model)
     - [Motorcycle model:](#motorcycle-model)
+    - [Boat model:](#boat-model)
 
 
 # VehiclesAPI
@@ -50,6 +52,17 @@ The following endpoints are available:
 | `/motorcycle/update/{id}`     | **`PUT`**    | Updates an existing motorcycle with the specified id. |
 | `/motorcycle/delete/{id}`     | **`DELETE`** | Deletes an existing motorcycle with the specified id. |
 
+
+### Boat enpoints:
+
+| **Endpoin**t                  | **Method**   | **Description**                                       |
+|-------------------------------|--------------|-------------------------------------------------------|
+| `/boat/list`                  | **`GET`**    | Returns a list of all boats.                          |
+| `/boat/{id}`                  | **`GET`**    | Returns a single boat with the specified id.          |
+| `/boat/save`                  | **`POST`**   | Saves a new boat to the list.                         |
+| `/boat/update/{id}`           | **`PUT`**    | Updates an existing boat with the specified id.       |
+| `/boat/delete/{id}`           | **`DELETE`** | Deletes an existing boat with the specified id.       |
+
 ## Data Model
 
 ### Automobile model:
@@ -78,3 +91,15 @@ The `Motorcycle` model represents an motorcycle, and has the following propertie
 | **`CylinderCapacity`**     | `string`   | Cylinder capacity of the motorcycle              |
 | **`Color`**   | `string`   | Color of the motorcycle            |
 
+### Boat model:
+
+The `Boat` model represents a boat, and has the following properties:
+
+| **Property**       | **Type**   | **Description**                          |
+|--------------------|------------|------------------------------------------|
+| **`Id`**           | `string`   | Unique identifier for the boat           |
+| **`Name`**         | `string`   | Name of the boat                         |
+| **`Type`**         | `string`   | Type of the boat                         |
+| **`Size`**         | `string`   | Size of the boat                         |
+| **`Length`**       | `string`   | Length of the boat                       |
+| **`Capacity`**     | `string`   | Capacity of the boat                     |
