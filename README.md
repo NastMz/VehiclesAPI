@@ -4,8 +4,10 @@
   - [Getting Started](#getting-started)
   - [Endpoints](#endpoints)
     - [Automobile enpoints:](#automobile-enpoints)
+    - [Motorcycle enpoints:](#motorcycle-enpoints)
   - [Data Model](#data-model)
     - [Automobile model:](#automobile-model)
+    - [Motorcycle model:](#motorcycle-model)
 
 
 # VehiclesAPI
